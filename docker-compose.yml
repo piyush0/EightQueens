@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    logging:
+      driver: "none"
+  app:
+    stdin_open: true
+    tty: true
+    build: .
+    volumes:
+      - .:/app
+    command: python main.py
+    depends_on:
+      - db
