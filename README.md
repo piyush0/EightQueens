@@ -1,4 +1,4 @@
-# Eight Queens 👑👑:crown:
+# Eight Queens 👑
 
 Solution of the famous [Eight Queen Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) using bitsets with a touch of Postgres and SQLAlchemy.
 
