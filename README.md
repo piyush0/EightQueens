@@ -1,14 +1,19 @@
-# Eight Queens 👑
-
+[![Build Status](https://api.travis-ci.org/piyush0/EightQueens.svg?branch=master)](https://travis-ci.org/piyush0/EightQueens)
+# Eight Queens
+ 👑
 Solution of the famous [Eight Queen Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) using bitsets with a touch of Postgres and SQLAlchemy.
 
 ## Prerequisites
 
+- Docker
 - Docker Compose
 
 ## Running the code
 
 For running the source code, use the docker image.
+
+#### Note
+When running the code for the first time, it will also build the underlying docker image
 
 ```bash
 $ docker-compose run app
